@@ -1,0 +1,7 @@
+const start_date = new Date("feb 01 2002").getMonth()
+const end_date = new Date("11/27/2002").getMonth()
+
+console.log(end_date,"-------",start_date)
+
+const d = end_date - start_date
+console.log(d)
