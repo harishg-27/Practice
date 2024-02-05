@@ -1,0 +1,17 @@
+const s = "icodepython"
+const space = [1,5]
+const array = s.split('')
+console.log("arr",array,space[1],s.indexOf("p"))
+let i=0
+const data = array.map( data => {
+    if(s.charAt(i) == "c"  ||s.charAt(i) === "p"){
+        i++
+        console.log("if:",i)
+        return " " +data
+    }else{
+        i++
+        return data
+    }
+})
+
+console.log("spacing values are:",data.join(''))
